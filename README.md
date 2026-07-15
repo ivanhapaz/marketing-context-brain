@@ -1,6 +1,6 @@
 # Context Brain
 
-**A method for building the context an AI marketer actually needs.**
+**A method for building the context an AI marketing agent needs.**
 
 Ten interlocking docs (plus an eleventh I skipped and regretted) that give an agent enough context to do real marketing work. Plain markdown. Prototype them in a chat window, then move the same files into whatever stack runs the work for real.
 
