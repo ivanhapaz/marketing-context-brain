@@ -34,7 +34,7 @@ The order matters more than the docs. Live data first, then extraction, then der
 
 **In Claude Code:** drop the `context-brain` folder into `~/.claude/skills/` (personal) or `.claude/skills/` (project).
 
-**Without skills, in any chat:** open `references/doc-specs.md` and `references/interview.md`, paste them into a Claude Project or a chat, and say *"interview me and build these docs with me, one at a time."* Works fine. Most people will do it this way.
+**Without skills, in any chat:** open `references/doc-specs.md` and `references/interview.md`, paste them into a Claude Project or a chat, and say *"interview me and build these docs with me, one at a time."* Works fine.
 
 ## The honest caveat
 
