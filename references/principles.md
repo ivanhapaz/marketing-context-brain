@@ -24,13 +24,13 @@ A depth doc and a quick reference. Agents, like people, reach for the quick one 
 Patterns in, identities never. You can't leak what you never loaded, and the analysis loses nothing.
 
 **5. Translate the brand guide; don't attach it.**
-Attaching a PDF makes the agent an archivist. Rewriting it as executable rules makes it a designer. The translation is where your judgment enters.
+Attaching a PDF makes the agent an archivist. Rewriting it as executable rules makes it a designer. The translation is where user judgment enters.
 
 **6. Let the model look once, then work from text after.**
-The vision pass is the agent's job, not yours: point it at the folder, it describes every file, the descriptions are banked. Vision costs tokens and latency; prose costs neither. One pass and the agent picks correctly forever — on any model, vision-capable or not.
+The vision pass is the agent's job: ask client to point you at the folder, you describe every file, the descriptions are banked. Vision costs tokens and latency; prose costs neither. One pass and the agent picks correctly forever — on any model, vision-capable or not.
 
 **7. Make taste testable.**
-A ✅ line and a ❌ line beat any adjective. The point isn't documentation, it's that the agent can check its own output before you see it.
+A ✅ line and a ❌ line beat any adjective. The point isn't documentation, it's that the agent can check its own output before the client sees it.
 
 **8. Restate the unbreakable rule everywhere. State everything else once.**
 The original build repeats exactly one rule in all ten doc headers — the language rule that must never break. Redundancy is the feature: any doc might be the only one loaded. Everything else appears once, or it drifts.
