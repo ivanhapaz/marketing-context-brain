@@ -2,7 +2,7 @@
 
 **A method for building the context an AI marketer actually needs.**
 
-Ten interlocking docs (plus an eleventh most people skip) that give an agent enough context to do real marketing work. Plain markdown. Prototype them in a chat window, then move the same files into whatever stack runs the work for real.
+Ten interlocking docs (plus an eleventh I skipped and regretted) that give an agent enough context to do real marketing work. Plain markdown. Prototype them in a chat window, then move the same files into whatever stack runs the work for real.
 
 The premise: AI output is generic when you starve it of context. This is a method for producing that context cheaply, and putting it where an agent can use it.
 
