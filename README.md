@@ -28,9 +28,9 @@ Eleven interlocking documents:
 
 The number isn't sacred. The architecture is: evidence before synthesis, depth docs plus fast references, explicit precedence, and an operating layer that travels with the knowledge.
 
-**If you only do three:** Spine, ICP, Voice. That's the brain that stops the output from being generic, and it's a good afternoon's work. The other eight are what make it reliable enough to hand real autonomy to. Start where the pain is; the skill will follow you.
+**If you only do three:** Spine, ICP, Voice. That's the brain that stops the output from being generic. The other eight are what make it reliable enough to hand real autonomy to. Start where the pain is; the skill will follow you.
 
-**On effort:** this is a real build, not a five-minute template fill. The three-doc version is an afternoon. My first full one took about seven hours, most of it arguing with Claude about what its research had turned up. That arguing is the part that makes it good.
+**On effort:** this is a real build, not a five-minute template fill. The three-doc version can be about an hour (maybe less maybe more). My first full one took about seven hours - but I didn't have this skill. Most of it arguing with Claude about what its research had turned up. That arguing is the part that makes it good.
 
 ## How the work actually goes
 
