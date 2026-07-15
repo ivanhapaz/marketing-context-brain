@@ -46,6 +46,10 @@ Uncertainty stays marked instead of quietly hardening into fact. Hard rules get 
 
 **No skills, don't care** — put the files in a Claude Project and tell Claude to follow `SKILL.md`. It's all plain markdown. Works fine.
 
+## What good looks like
+
+The hardest part to describe in prose is the level of specificity that makes these docs work. So there are worked excerpts in [`assets/examples.md`](assets/examples.md) — a real testable voice principle with its pass/fail lines, one segment that changes the marketing sitting next to one decorative persona, and a decision log entry with the field everyone skips. All from a fictional company. Read them for shape, not content.
+
 ## How you know it worked
 
 Not by word count, and not because all eleven files exist.

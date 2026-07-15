@@ -17,6 +17,7 @@ Read these before beginning:
 - [references/interview.md](references/interview.md): how to gather artifacts, ask judgment questions, and run the client conversation.
 - [references/principles.md](references/principles.md): architectural rules and known failure modes.
 - [references/evaluation.md](references/evaluation.md): acceptance tests for the completed brain.
+- [assets/examples.md](assets/examples.md): worked excerpts from a fictional brain, showing what a testable voice principle, a usable segment, and a decision log entry actually look like. Read for shape; the content is invented.
 
 ## Operating model
 
@@ -100,7 +101,7 @@ Build:
 - ICP
 - Voice & Tone
 
-Draft these from the evidence first. Then ask the client to correct the judgment. Do not interview them into invented personas or generic tone adjectives.
+Draft these from the evidence first. Then ask the client to correct the judgment. Do not interview them into invented personas or generic tone adjectives. See [assets/examples.md](assets/examples.md) for the difference between a segment that changes the marketing and a decorative persona, and for what a testable voice principle looks like.
 
 ### Phase 4: operating layer
 
@@ -115,7 +116,7 @@ Keep a mirror copy of the instructions inside the portable brain so no load-bear
 
 ### Phase 5: decision log
 
-Collect every hard prohibition and record:
+See [assets/examples.md](assets/examples.md) for a worked entry. Collect every hard prohibition and record:
 
 - the rule;
 - what happened;
