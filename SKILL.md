@@ -1,6 +1,6 @@
 ---
 name: context-brain
-description: Builds a portable marketing Context Brain: an evidence-grounded set of markdown documents that lets AI systems produce specialized marketing work using the business's decisions, constraints, voice, assets, and operating rules. Use when the user asks to build context for an AI marketer, improve generic AI marketing output, structure marketing knowledge for a Claude Project or agent, or translate brand, buyer, product, market, and workflow knowledge into rules an AI can follow.
+description: Builds a portable marketing Context Brain, an evidence-grounded set of markdown documents that lets AI systems produce specialized marketing work using the business's real decisions, constraints, voice, assets, and operating rules. Use when the user says "help me build a context brain", "set up an AI marketer", "build context docs for my Claude Project", or asks how to stop their AI marketing output from coming out generic. Also use when someone wants to structure marketing knowledge (ICP, voice, positioning, brand assets, workflow) into rules an AI can follow.
 ---
 
 # Context Brain
