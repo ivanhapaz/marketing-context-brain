@@ -1,12 +1,15 @@
 # Principles, and the scars behind them
 
-The design decisions that make a context brain work, and — where they exist — the mistakes that produced them.
+The design decisions that make a context brain work, and the mistakes that produced them. Follow these while you build; teach the ones that apply.
 
 Two kinds of rules live in a mature brain. **Designed rules** say *do this*. **Scars** say *never this*, and name a specific wrong thing. Scars are more valuable, because someone paid for them.
 
 ---
 
-## The twelve
+## The thirteen
+
+**0. Never make them produce what you can go get. Always take what they already have.**
+You're the specialist they hired, and they're probably a competent marketer with material in a folder. Ask for artifacts, not answers — *"do you have a competitor deck, or should I build one?"* Existing material beats your research on speed and tells you how they think. What doesn't exist, go get yourself when possible: market research, customer evidence, product or campaign analysis, the copy audit, the vision pass. Never send a client off to do homework you could have done.
 
 **1. Spine first, thin — then re-audit it last.**
 It's the router. It gets written by the least-informed version of the project and it ages worst. On the original build, the spine's document map still listed two of the biggest docs as "still to build" long after both existed. The staleness *was* the timestamp. Treat the map like code.
@@ -35,11 +38,11 @@ The original build repeats exactly one rule in all ten doc headers — the langu
 **9. Put uncertainty on the output path.**
 Research docs carry caveats sections. Output docs carry inline `(confirm)` flags. Mark uncertainty at the point where a claim is about to become an ad, not where it was born.
 
-**10. Don't write the doc you can't evidence.**
-A doc that needs numbers you don't have stays unwritten. Its absence is information. Writing it anyway fills the brain with confident guesses, which are worse than gaps because they read like facts.
+**10. Use proportional evidence standards.**
+Do not turn assumptions into facts, but do not demand enterprise-grade attribution from a team that operates on founder calls, a small customer set, or incomplete systems. Mark what is verified, observed, chosen, or hypothesized. Narrow claims when necessary; leave a whole document unwritten only when there is no useful basis for it.
 
 **11. Date every snapshot of a moving number — and write the re-audit instruction into the doc.**
-Prices, market stats, competitor claims. The doc should say when it was true and when to check again.
+Prices, packaging, market stats, benchmark claims, competitor claims, and other moving facts. The doc should say when it was true and when to check again.
 
 **12. Stable section numbers are the addressing scheme.**
 Cross-references are surgical (`Voice §2 P7`). Numbering looks cosmetic. Renumber and the graph breaks.
@@ -48,7 +51,7 @@ Cross-references are surgical (`Voice §2 P7`). Numbering looks cosmetic. Renumb
 
 ## The scars, and what caused them
 
-Reverse-engineered from prohibition language in a real brain. Yours will differ; the *shape* won't.
+These are real, reverse-engineered from the prohibition language in one working brain (a regulated-ads build). Yours will be different scars. The *shape* is the part that transfers: a rule that names a specific wrong thing is a rule someone paid for.
 
 **"The website's theme color is not a brand color, and must never be used."**
 Something sampled the live site and treated it as canonical.
@@ -67,8 +70,8 @@ An early number got used, then a real dated quote contradicted it.
 → *Say which numbers are dead, not just which are alive.*
 
 **A banned claim family, with ❌ example lines.**
-An ad account died for this.
-→ *The rule that cost the most to learn gets the most examples.*
+An ad account died for this one.
+→ *The rule that cost the most to learn gets the clearest examples.*
 
 **A corrected industry claim.**
 A confident, false, widely-repeated thing that everyone in the category says.

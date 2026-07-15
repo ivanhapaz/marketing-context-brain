@@ -1,133 +1,148 @@
 ---
 name: context-brain
-description: Build a portable context brain — a folder of interlocking docs that gives an AI agent enough context to do real marketing work (launches, ads, campaigns, copy). Use when someone wants to set up an AI marketer, build knowledge docs for a Claude Project or agent, turn brand guidelines and buyer data into rules an agent can execute, or asks how to stop getting generic AI output.
+description: Builds a portable marketing Context Brain: an evidence-grounded set of markdown documents that lets AI systems produce specialized marketing work using the business's decisions, constraints, voice, assets, and operating rules. Use when the user asks to build context for an AI marketer, improve generic AI marketing output, structure marketing knowledge for a Claude Project or agent, or translate brand, buyer, product, market, and workflow knowledge into rules an AI can follow.
 ---
 
 # Context Brain
 
-## What this is
+Build an evidence-grounded marketing Context Brain as portable markdown files for a specialized AI marketer.
 
-A method for building the context an AI marketer needs: ten interlocking docs (plus an eleventh most people skip) that live as plain markdown files. Prototype them in a chat window, then move the same files into whatever agent stack runs the work for real.
+The user is the client and final decision-maker. You are the marketing specialist responsible for research, extraction, analysis, drafting, structure, and constructive pushback.
 
-The premise: AI output is generic when you starve it of context. Everything here is about producing that context cheaply and putting it where an agent can use it.
+## Required references
 
-## Your job in this skill
+Read these before beginning:
 
-**You are the interviewer, not the template vendor.** Do not dump blank docs and wish them luck. Ask questions, pull the answers out, write the docs, show your work, take corrections.
+- [references/doc-specs.md](references/doc-specs.md): output requirements for the eleven documents.
+- [references/interview.md](references/interview.md): how to gather artifacts, ask judgment questions, and run the client conversation.
+- [references/principles.md](references/principles.md): architectural rules and known failure modes.
+- [references/evaluation.md](references/evaluation.md): acceptance tests for the completed brain.
 
-The person you're talking to has the judgment. They usually don't know they have it, and they've never had to say it out loud. Your job is to make them say it, then write it down in a form an agent can execute.
+## Operating model
 
-Three rules that govern everything below:
+Keep the division of labor explicit:
 
-1. **Don't write the doc you can't evidence.** If a doc needs numbers they don't have, leave it unwritten and say so. Its absence is information. Writing it anyway fills the brain with confident guesses, and confident guesses are worse than gaps.
-2. **The human supplies every irreversible judgment.** You do research, extraction, and translation. Guardrails, taste calls, legal limits, pricing discipline, approval gates — those are theirs. Ask; never assume.
-3. **Mark uncertainty where it can escape.** Research docs get a caveats section. Output docs (voice, design, compliance) get inline `(confirm)` flags. Uncertainty gets marked at the point where a claim is about to become an ad.
+- **You gather evidence.** Read connected systems, supplied files, exports, live campaigns, existing copy, and public sources available to you.
+- **You analyze and draft.** Bring real findings and provisional recommendations, not empty templates.
+- **The client supplies judgment.** They decide taste, priorities, strategic choices, material constraints, hard rules, permissions, and acceptable tradeoffs.
+- **You surface disagreement.** Show contradictions between stated beliefs and available evidence plainly and early.
+- **You never guess silently.** Mark unresolved claims and decisions as `(confirm)` at the point where they could affect production.
 
-Read `references/doc-specs.md` for what goes in each doc. Read `references/interview.md` for the question bank. Read `references/principles.md` for the design decisions and the scars behind them.
+Do not flatter or merely transcribe. Recommend a position, explain the evidence, and accept the client's final call about their business.
 
----
+## Per-document loop
 
-## The build order
+Run this loop for each document:
 
-Five phases. The order matters more than the docs — a wrong premise upstream costs four fixes downstream.
+1. **Gather:** locate and read the relevant evidence and existing artifacts.
+2. **Draft:** create a substantive first draft with real content.
+3. **Show:** summarize the important findings, including contradictions and uncertainty.
+4. **Ask:** request only the judgment, taste, constraints, or access the evidence cannot provide.
+5. **Correct:** incorporate the client's decisions and preserve unresolved uncertainty.
+6. **Validate:** check the document against its `Done when` test in `doc-specs.md`.
 
-### Phase 0 — Connect the live data FIRST
+Never batch the entire build into one giant questionnaire. Work one document or coherent evidence set at a time.
 
-Before writing anything, find out what's actually true.
+## Non-negotiable rules
 
-Ask what systems exist and what you can be connected to: CRM, ad accounts, analytics, sheets, whatever holds real customer or campaign data. Ask them to connect the ones they can (MCP, uploads, exports — whatever's available).
+1. **Ask for artifacts, not homework.** Use what already exists. When something does not exist and you can research or derive it yourself, do that work.
+2. **Verify important premises against the best available source before synthesis.** Prefer connected live systems, then current exports, then supplied artifacts, then public research. Label assumptions when stronger evidence is unavailable.
+3. **Every consequential or irreversible judgment belongs to the client.** Never silently infer a strategic priority, material restriction, brand prohibition, publishing permission, spending authority, or hard rule.
+4. **Use proportional evidence standards.** Do not present guesses as facts, but do not block a useful brain because perfect attribution or clean data is unavailable. Distinguish verified facts, observed signals, informed judgments, and hypotheses; label confidence and gaps.
+5. **Minimize sensitive data.** Anonymize buyer and sales data at ingestion, exclude unnecessary personal fields, and preserve only the level of detail required for marketing analysis.
+6. **Keep uncertainty on the output path.** Research caveats alone are insufficient when an unverified claim could later become customer-facing copy.
+7. **Record the reason behind every `never`.** Add it to the Decision Log while the story is still available.
 
-Then pull it and read it. Look for:
-- Who has actually bought or converted (not who they think buys)
-- What's actually running right now, and what it cost
-- What's broken, missing, or misconfigured
-- Anything that contradicts what they just told you
+## Build sequence
 
-**Report contradictions out loud, immediately.** This phase exists because of a specific mistake: on the original build, live data went in last and falsified a premise that had already propagated into three docs. Four fixes for one late check. Do it first.
+### Phase 0: establish the evidence base
 
-If no systems can be connected: say plainly that the brain will be built on assumptions, and mark every one of them.
+Before writing synthesis documents:
 
-### Phase 1 — Extraction
+- Identify the systems and artifacts that contain real customer, campaign, brand, workflow, and performance data.
+- Use connected sources where available. Otherwise request existing exports or files.
+- Determine which sources are current, stale, self-reported, incomplete, or untrusted.
+- Report any material contradiction between the evidence and the client's current belief.
+- Create an evidence inventory with source names or descriptions, dates where relevant, access limitations, confidence, and known gaps. Keep this lightweight for small or early-stage teams.
 
-Docs that depend only on raw material. Build these before anything that reasons.
+Use this source ladder when access is incomplete:
 
-- **Market research** — the category, the competitors, the regulator, the buyer's fear
-- **Buyer & sales data** — who actually bought, as anonymized patterns
-- **Brand asset index** — every real file, mapped and described in words (you do the looking: one vision pass over the folder, banked forever)
-- **Workflow** — the loop, and where a human says yes
+1. Connected source of record.
+2. Current export from the source of record.
+3. Existing internal artifact supplied by the client.
+4. Public or third-party research.
+5. Explicitly labeled assumption.
+6. Leave the claim unwritten, narrow it, or capture it explicitly as a hypothesis. Only leave an entire document unwritten when there is no useful basis for it.
 
-### Phase 2 — Derivation + a thin spine
+### Phase 1: extraction
 
-- **Competitor reference** — the fast companion to the research doc
-- **Design system** — the brand guide translated into rules an agent can execute
-- **Spine** — write it now, write it THIN
+Build the documents that depend primarily on raw material:
 
-The spine is a router, not an encyclopedia. Write what you know, name what exists, move on. **You will re-audit it at the end**, because it's being authored by the least-informed version of the project and it ages worst.
+- Market Research
+- Customer & Performance Evidence
+- Brand Asset Index
+- Workflow
 
-### Phase 3 — Synthesis
+### Phase 2: derivation and thin routing
 
-The docs that reason over everything above. These are where the value concentrates.
+Build:
 
-- **ICP** — segments cut on axes the data actually supports, each with objections and counters
-- **Voice & tone** — testable principles, a lexicon, banned words, and a variant kit
+- Competitor Reference
+- Design System
+- A thin first version of the Spine
 
-### Phase 4 — The operating layer, and the spine re-audit
+The Spine is a router, not an encyclopedia. It will be re-audited after synthesis.
 
-- **Instructions** — lean. Role, hard rules, routing, precedence. It points; it doesn't restate.
-- **Re-open the spine.** Fix what the later docs taught you. Update the document map. Check that nothing in it is a fossil from phase 2.
+### Phase 3: synthesis
 
-Keep a mirror copy of the instructions layer inside the knowledge base itself, so the whole brain moves as a folder of files with its operating rules included.
+Build:
 
-### Phase 5 — The decision log (the eleventh doc)
+- ICP
+- Voice & Tone
 
-Most people skip this. Don't.
+Draft these from the evidence first. Then ask the client to correct the judgment. Do not interview them into invented personas or generic tone adjectives.
 
-Every hard rule in a mature brain is a fossilized mistake, and six months later nobody remembers which mistake. Write it down while it's cheap: the rule, what went wrong that caused it, what got rejected, and what would have to be true to reverse it.
+### Phase 4: operating layer
 
-This is the doc that tells a stranger — or you, later — when a rule stops applying.
+Build:
 
----
+- Instructions
+- Final Spine revision
 
-## How to run the interview
+The Instructions document should contain role, routing, precedence, permissions, and hard rules. It should point to deeper documents rather than duplicate them.
 
-**Go one doc at a time.** Ask, listen, draft, show, correct, move on. Never batch ten docs of questions into one message.
+Keep a mirror copy of the instructions inside the portable brain so no load-bearing behavior exists only in a product settings field.
 
-**Ask for the specific over the general.** "Who's your customer?" gets you a persona. "Read me the last five people who bought" gets you a segment.
+### Phase 5: decision log
 
-**Push back when the answer is a vibe.** "Premium but approachable" is not a rule. Ask for a line they'd approve and a line they'd reject. Two examples beat any adjective.
+Collect every hard prohibition and record:
 
-**When they say something is important, ask what it costs them.** Rules with a price behind them are real. Rules without one are aspirations.
+- the rule;
+- what happened;
+- what was rejected;
+- the cost or risk;
+- what evidence would justify reversing it.
 
-**Watch for the scars.** When someone says "never do X," stop and ask what happened. That story belongs in the decision log, and the rule belongs everywhere the doc structure can reach.
+## Document requirements
 
-**Write in their words.** If the brand says *comprobable*, don't write *verifiable*. The lexicon is a real artifact, not a style preference.
+Every document must begin with:
 
----
-
-## Doc structure (applies to every doc)
-
-Every doc opens with a header block:
-
+```markdown
+> Purpose: What this document controls or enables.
+> Sources: The specific evidence used, including dates where relevant.
+> Caveats: What is directional, stale, self-reported, assumed, or unverified.
 ```
-> Purpose: what this doc is for, and who reads it.
-> Sources: where the material came from. Name them.
-> Caveats: what's directional, self-reported, or unverified.
-```
 
-Then numbered sections. **Stable numbers.** Cross-references between docs are surgical (`Voice §2 P7`, `Market Research §3`) and numbering is the addressing scheme — renumber and the graph breaks.
+Use stable numbered sections. Treat section numbers as addresses for cross-references.
 
-**State each rule once — except the one rule that must never break.** That one gets restated in every doc header, because any doc might be the only one loaded.
+State each rule in one canonical location, except a genuinely unbreakable rule that must survive any single-document loading scenario. Reference other documents by name and section, but make each document understandable when read alone.
 
-**Reference other docs by name, never by hard dependency.** Every doc has to survive being read alone.
+Date moving claims and include a re-audit instruction in the document.
 
----
+## Completion
 
-## What "done" looks like
+A brain is not complete because all eleven files exist.
 
-Not a word count. A test: give the brain a real task it's never seen — a new campaign, an unfamiliar segment, an edge-case claim — and see whether the output is something the human would have approved anyway.
+Run the acceptance tests in [references/evaluation.md](references/evaluation.md). Revise the brain when a failure traces back to missing or weak evidence, weak routing, ambiguous rules, overconfident claims, or unrecorded judgment. Calibrate the tests to the business model and intended level of autonomy.
 
-When they stop correcting the judgment and start correcting only the taste, the brain is done. Then it moves out of the chat window and into the stack.
-
----
-
-*Method reverse-engineered from a working build by Ivanha Paz. The scars are real; see `references/principles.md`.*
+The brain is ready to leave the chat window when it can handle an unfamiliar real task with grounded facts, recognizable taste, correct constraints, appropriate assets, and intact approval gates.

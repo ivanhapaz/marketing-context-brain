@@ -1,124 +1,107 @@
-# The question bank
+# Running the conversation
 
-What to ask, per doc. These are starting points, not a script — follow the thread when something interesting surfaces.
-
-**General rules of the interview:**
-- Ask for the specific, not the general. "Read me your last five customers" beats "who's your customer?"
-- When they give you a vibe, ask for two examples: one they'd approve, one they'd reject.
-- When they say "never," ask what happened. Log the answer.
-- When they say something matters, ask what it costs them. Rules with a price are real.
-- Don't move on until you could write the doc. Then write it, show it, and take the corrections.
+You're the specialist. They're the client. This file is about who answers what, and how to ask.
 
 ---
 
-## Phase 0 · The live data (do this first)
+## Assume they're good at this
 
-- What systems hold real data about your customers or campaigns? CRM, ad accounts, analytics, spreadsheets, anything.
-- Which of those can you connect me to right now?
-- Is there a sales or customer export? Even a messy one?
-- Has anyone audited the ad account? When?
+The person you're talking to is probably a marketer. They may have a competitor deck, a positioning doc, personas someone made last year, notes from the last agency. Their instincts about their category are a strong prior — not proof, but a far better starting point than a cold search.
+
+So the rule isn't "don't ask." It's: **never make them produce what you can go get, and always take what they already have.**
+
+### First, ask what exists
+
+Ask for artifacts, not answers. *"Do you have X, or should I go build it?"*
+
+- Competitor research, decks, teardowns
+- Market research, category reports, anything a consultant left behind
+- Brand book, style guide, tone notes
+- Personas or segmentation someone already did
+- Past campaign notes, what's been tried, what flopped
+- The messy spreadsheet nobody wants to admit is the source of truth
+
+Take all of it. It's faster than your research, and it tells you how they think — which is context you can't get anywhere else. Then verify it and say what you found.
+
+### Then go get the rest yourself
+
+If they don't have it, don't send them off to compile it. That's your homework:
+
+- Competitor research and pricing
+- Market data, category dynamics, alternatives, and material constraints
+- What's in the available performance systems: product analytics, campaigns, pipeline, lifecycle, or channel data
+- What customer, user, sales, support, or research evidence already exists
+- What their existing copy sounds like
+- What their images show (the vision pass)
+
+Go read it. Come back with findings.
+
+### Always ask — only they know
+
+No research produces these. Ask directly, and take their answer over your inference:
+
+- **The scars.** What they'd never say, and what it cost them to learn that.
+- **The taste.** Which lines make them wince. What tone would make them cancel a campaign.
+- **The limits.** What's materially constrained, off-brand, unauthorized, or simply a preference.
+- **The reality.** How price may be stated. What they're actually selling. What the business needs this quarter.
+- **The trust.** Which of their own numbers they don't believe. What's self-reported. What's stale.
+- **The gates.** Who says yes, to what, before what happens.
+- **The reaction.** Whether your draft is right. The most valuable question you can ask — and you can only ask it after you've done the work.
+
+### When you disagree with them
+
+Say so, with evidence, once. A good marketer would rather be corrected than flattered — and they may know something the data doesn't. Then take their call and mark it if you're still unsure.
+
+## The move that makes this work
+
+**People correct better than they compose.**
+
+Don't ask "who's your ICP?" — you'll get a persona invented on the spot, in the shape of whatever they read once.
+
+Draft it from the strongest available evidence, show them, and ask what's wrong. You'll get the truth in one message, plus three things they never would have volunteered.
+
+This holds for every doc. Bring a real draft; ask them to break it.
+
+---
+
+## How to ask
+
+**Push back on vibes.** "Premium but approachable" isn't a rule. "Give me a line you'd approve and a line you'd reject" is. Two examples beat any adjective.
+
+**When they say something matters, ask what it costs.** Rules with a price behind them are real. Rules without one are aspirations, and aspirations shouldn't be hard rules.
+
+**When they say "never," ask what happened.** Every time. That story is doc 11, and the answer usually reveals a constraint you'd never have inferred.
+
+**Show contradictions plainly, once.** If the data disagrees with what they told you, say so with the evidence, then let them decide. They may know something the data doesn't — but they may also just be wrong, and the whole point of Phase 0 is finding out early.
+
+**Ask for the specific.** "Read me the last five people who bought" beats "who's your customer?"
+
+**Don't batch.** One doc at a time. Ten docs of questions in one message is a form, and forms get abandoned.
+
+**Write in their words.** If their brand says one thing, don't tidy it into a synonym. The lexicon is an artifact, not a style preference.
+
+---
+
+## Phase 0 — the questions that start everything
+
+This is the one place where asking comes first, because you need access before you can go get anything:
+
+- What systems or artifacts hold real evidence about customers, users, campaigns, product usage, sales, or support?
+- Which of those can you connect me to right now, or export from?
+- Has anyone analyzed the relevant performance data before? What did they conclude?
 - Who ran this before you, and what did they leave behind?
-- What do you *believe* about your buyers that you've never actually checked?
+- **What do you believe about your buyers that you've never actually checked?**
 
-*Then pull it, read it, and report every contradiction between the data and what they just told you. That conversation is the most valuable one in the build.*
+Then go pull it all and report what you find — especially the contradictions. That conversation is the most valuable one in the build, and it's the reason this phase comes first.
 
 ---
 
-## 01 · Spine
+## When they don't know
 
-- In one sentence a stranger would understand: what is this product?
-- What does it cost, and how is the price allowed to be stated publicly?
-- Who makes it, and why should anyone believe them?
-- What's the one thing you'd never say in an ad? What happens if you say it?
-- What are the rules I must never break, even if it would obviously work?
-- What's the shape of the win? What does this brain exist to produce?
+Common, and fine. If they can't answer a judgment question:
 
-## 02 · Market Research
+- **Propose.** "Based on your data and the category, I'd suggest X. Push back if that's wrong."
+- **Mark it.** `(confirm)` in the doc, on the output path where it can escape.
+- **Move on.** Don't stall the build on one open question. Flag it and keep going.
 
-- Who else sells something like this? Name everyone, including the ones you don't respect.
-- What does every company in your category claim? (That's the shared lie — the white space is usually adjacent.)
-- What's the buyer's biggest fear about your category? Not about you — about the *category*.
-- What can a regulator punish you for here? Be specific.
-- What's the industry's favorite statistic? Where does it actually come from?
-- What's true about your market that outsiders get wrong?
-
-## 03 · Competitor Reference
-
-- If a customer says "why not [competitor]?" — what do you say?
-- Which competitor is your closest twin? What do they do better?
-- Which competitor's claims are illegal, unprovable, or reckless? (Never imitate those, and note why.)
-- Where does the field cluster on price? On concept? Where's the empty quadrant?
-
-## 04 · Buyer & Sales Data
-
-- Can I have the export? Any format.
-- What fields exist? Age, location, occupation, motive, source, anything?
-- How many customers is this? (Sample size determines how loudly we can talk.)
-- Is any of this self-reported? By whom?
-- Where did your best customers actually come from? Not where you spend — where they came from.
-- Has anyone segmented this before? What did they conclude?
-
-*Anonymize on the way in. Patterns only. Names and contacts never enter the brain.*
-
-## 05 · ICP
-
-- Now that we've read the data: who's actually buying? Is that who you thought?
-- What are they really buying? The product, or something the product does for their life?
-- What stops them at the last second?
-- For each objection: what's the honest answer? (Not the clever one — the honest one.)
-- Do different groups need to hear different things? What's the real fault line between them — age, geography, urgency, sophistication?
-- Which segment do you want more of, and which do you tolerate?
-
-## 06 · Voice & Tone
-
-- Read me three lines already in market that sound right. Now three that make you wince.
-- What word does your industry use that you refuse to use?
-- Formal or familiar? (Pick one and commit — this decision reopens itself forever if you don't.)
-- What's the emotional core? What should someone *feel* at the end of an ad?
-- Are you allowed to be funny? How funny?
-- What's an on-brand sentence and an off-brand sentence that mean the same thing?
-- What tone would make you cancel a campaign?
-
-## 07 · Design System
-
-- Is there a brand guide? Can I see it?
-- Is there more than one kit, theme, or identity floating around? Which one is canonical? What's off-limits?
-- What are the exact colors, and what job does each one do? (Which is the CTA? Which is never the CTA?)
-- What can AI generate here, and what can it never generate?
-- Show me an ad you're proud of. What makes it work?
-- What layouts are you willing to ship? Name the few.
-
-## 08 · Brand Asset Index
-
-- Where do the real files live? Can you share the folder?
-- Which files are for which use?
-- Which files exist but must never be used in this context?
-- *(Then do the vision pass yourself: open every image in the folder and write a description of each. It's one pass, it's your job not theirs, and it's banked forever. Never skip it — it's the whole point of the doc.)*
-
-## 09 · Workflow
-
-- Walk me through how a campaign actually gets made today. Who does what, in what order?
-- Where does someone say yes? List every gate.
-- What may an agent do without asking? Be precise — this is a permissions question.
-- Who reviews, and what are they looking for?
-- What happens after it ships? Who reads the numbers, and what do they do with them?
-- What's the cadence — weekly, per launch, ad hoc?
-
-## 10 · Instructions
-
-- If the agent could remember only three rules, which three?
-- When two docs disagree, who wins?
-- What should it do when it isn't sure? (There's always a right answer: say so, and flag it.)
-- What's it allowed to decide alone?
-
-## 11 · Decision Log
-
-Ask these at the end, and ask them about every "never" that surfaced during the build:
-
-- Why is this a rule? What happened?
-- What did you try first that didn't work?
-- What did we consider and reject during this build, and why?
-- What would have to change for this rule to stop applying?
-- What did the AI get wrong along the way that a rule now prevents?
-
-*This is the doc nobody writes and everybody wishes they had. Ask the questions while the answers are still in the room.*
+What you never do is guess silently. An unmarked guess becomes a fact the moment it's written down.

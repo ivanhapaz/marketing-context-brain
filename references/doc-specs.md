@@ -1,197 +1,321 @@
 # The eleven docs
 
-Ten that make the brain work, and one that most people (including the person who built the original) skip.
+Build instructions. Each doc defines what it is, what you go get, what only the marketer can decide, the rule that makes it work, a lean output contract, and the test for done.
 
-Each entry: what it is, what goes in it, the design decision behind it, and how you know it's done.
+**Go get** = your homework. Research it, pull it, read it, analyze it, and bring a draft.
+**Ask them** = two things: what they already have, and the judgment only they hold. Existing artifacts beat starting from zero; explicit judgment beats silent inference.
+
+Assume the client is a competent marketer. Ask what exists before rebuilding it. Use the best evidence available, not an imaginary enterprise data stack. A founder interview, a handful of sales calls, product analytics, customer emails, campaign results, or an informed operating belief can all be useful inputs when labeled honestly.
+
+Evidence standards should be proportional to the claim:
+
+- **High-risk or externally verifiable claims** need a named source, date, or explicit confirmation.
+- **Strategic interpretations** need supporting signals and a confidence label, not courtroom-grade proof.
+- **Taste, preference, and operating decisions** need a clear owner, not attribution.
+- **Thin-data businesses** should get an assumption-led brain with visible confidence levels, not no brain at all.
 
 ---
 
 ## 01 · The Spine
 
-**What it is:** the master context every session reads first. If the agent could read only one file, this is the one.
+The master context every session reads first. If the agent could read only one file, this is it.
 
-**What goes in it:**
-- What the product is, in plain facts. No adjectives without receipts.
-- The positioning statement, and the white space it claims.
-- Value prop and proof points, each attributed to a source.
-- The hard rules: pricing language, legal constraints, things never said.
-- A document map: what else exists in the brain, and where the depth lives.
+**Go get:** the public site, product pages, sales collateral, launch materials, existing positioning, and the strongest available proof. Draft the plain-facts description and current positioning from what you find.
 
-**The design decision:** one file wins ties. When two docs disagree, the spine decides — without a single source of truth, the agent arbitrates on vibes. And it stays lean on purpose: state the strategy, name the map, let the agent load depth only when a task calls for it.
+**Ask them:**
+- Do you have a positioning statement, messaging doc, pitch deck, strategy memo, or launch brief already?
+- What can this brain never say or do?
+- How may pricing, packaging, customers, and performance be described publicly?
+- What strategic territory do you believe the company can own? Where do you want me to challenge that belief?
 
-**Build it early, thin — then re-audit it last.** It's written by the least-informed version of the project. It ages worst. The original build's spine still listed two of its biggest docs as "still to build" long after they existed.
+**The rule:** one file wins ties. When two docs disagree, the Spine decides. Keep it lean: state the strategy, name the map, and route the agent to depth on demand.
 
-**Done when:** a stranger could read only this and not embarrass themselves in a meeting about the product.
+**Minimum structure:**
+- What the company/product is
+- Who it is for
+- Positioning and strategic priority
+- Strongest proof
+- Hard rules and precedence
+- Document map
+- Known gaps or `(confirm)` items
 
----
+**Write it thin in Phase 2 and re-audit it in Phase 4.** It is authored by the least-informed version of the project.
 
-## 02 · Market Research
-
-**What it is:** the deep file. Market data, category dynamics, buyer psychology, regulation. Usually the richest single asset in the brain.
-
-**What goes in it:**
-- Market facts with numbers, dates, and named sources.
-- Long-form competitor teardowns: offer, pricing, hooks, weaknesses.
-- The rules of the category: what regulators allow, what buyers fear.
-- Messaging angles that follow from the evidence, with example hooks.
-
-**The design decision:** every fact carries its source, and anything unconfirmed gets flagged as unconfirmed. The agent inherits your standards. If you're loose with attribution, it will be too.
-
-**Watch for folklore.** Categories repeat confident claims that turn out to be false. The claim everyone in the industry makes is the one to check first.
-
-**Done when:** every claim in it could survive a hostile question about where it came from.
+**Done when:** a capable marketer could read only this and enter a working session without misunderstanding the business.
 
 ---
 
-## 03 · Competitor Reference
+## 02 · Market & Category Research
 
-**What it is:** the fast companion to the research doc. Every competitor on one scannable page, for positioning calls made mid-task.
+The deep file: category dynamics, alternatives, buyer context, important constraints, and the external facts that shape strategy.
 
-**What goes in it:**
-- One table: each competitor's tier, entry price, concept, hook.
-- A positioning map: where the field clusters, where the white space is.
-- Head-to-head counters: when a rival comes up, what we say.
-- Claims rivals make that we never imitate (the illegal, the unprovable).
+**Go get:** research the market at the level the task requires. Read priority competitors and alternatives, review current category language, inspect credible market sources, and identify material legal, platform, policy, technical, or reputational constraints only where they apply. Draft the strategic implications, not just a pile of links.
 
-**The design decision:** two docs, two speeds. The research doc is for depth; this one is for the middle of a task. Agents, like people, reach for the quick reference far more often — so make the quick one excellent.
+**Ask them:**
+- Do you already have market research, analyst notes, win/loss work, a consultant deck, or founder research?
+- What does everyone in the category seem to believe?
+- What is the buyer trying to avoid, protect, or prove?
+- Which findings change how you would market the product?
 
-**Done when:** you could answer "how are you different from X?" from this page alone, for every X.
+**The rule:** match evidence rigor to consequence. Source moving numbers, competitor claims, legal requirements, and other externally verifiable facts. Label strategic interpretations as interpretations and assumptions as assumptions.
+
+**Check the folklore.** Verify the category belief that would cause the most damage if it were wrong.
+
+**Minimum structure:**
+- Category and buying context
+- Market shifts or relevant trends
+- Alternatives and competitive patterns
+- Buyer anxieties and desired progress
+- Material constraints, if any
+- Strategic implications
+- Sources, dates, confidence, and gaps
+
+**Done when:** the document gives the marketer a more accurate strategic map and makes clear which parts are fact, synthesis, and hypothesis.
 
 ---
 
-## 04 · Buyer & Sales Data
+## 03 · Competitor & Alternative Reference
 
-**What it is:** the empirical backbone. Who has actually bought, cleaned and anonymized into patterns the whole brain can cite.
+The fast companion to the research doc. A scannable reference for positioning decisions made mid-task.
 
-**What goes in it:**
-- Aggregate patterns from real sales: geography, age, occupation, motive, whatever the data holds.
-- What the data says about channels: where real buyers came from.
-- Honest caveats: sample size, what's self-reported, what's directional.
+**Go get:** derive it from the research. Include direct competitors, status quo, internal workarounds, adjacent tools, or other alternatives customers actually compare.
 
-**The design decision:** names and contact details never enter the brain in the first place, only the patterns do. You can't leak what you never loaded, and the analysis loses nothing.
+**Ask them:**
+- Do you have battlecards, teardowns, win/loss notes, or a competitor list already?
+- When a buyer asks “why not X?” what do you honestly say?
+- Which alternative matters most in real deals, even if it is not a named competitor?
 
-**This doc blocks on the client.** If they can't produce the export, the doc stays unwritten and the ICP gets built on assumptions that are labeled as assumptions. Say so out loud.
+**The rule:** two docs, two speeds. The research doc supports deep reasoning; this one supports fast action.
 
-**Done when:** the patterns in it would surprise the person who sells the product. If they don't, you probably transcribed their beliefs instead of reading their data.
+**Minimum structure for each priority alternative:**
+- What it is and who chooses it
+- Its strongest appeal
+- Where it differs from us
+- Honest counter-position
+- Proof or caveat
+- Last reviewed date
+
+**Done when:** the agent can answer “why this instead of X?” without inventing attacks or flattening meaningful differences.
+
+---
+
+## 04 · Customer & Performance Evidence
+
+The empirical backbone: what customers, users, prospects, and campaigns actually reveal.
+
+**Go get:** use whatever real signals exist. This may include CRM data, product analytics, campaign reports, sales calls, support themes, customer interviews, surveys, reviews, community conversations, pipeline notes, or a small set of founder-led deals. Analyze patterns and contradictions; do not pretend a weak dataset is statistically conclusive.
+
+**Ask them:**
+- What customer, user, pipeline, or campaign evidence exists today?
+- Which fields or sources are trustworthy, incomplete, or biased?
+- What conclusions has the team already drawn?
+- What do frontline teams know that has not been documented?
+- Where are we operating from informed belief rather than measured evidence?
+
+**The rule:** preserve patterns, not unnecessary identities. Minimize personal data and record the quality of the evidence alongside the insight.
+
+**This doc scales to the business.** No clean warehouse is required. With sparse evidence, build a signal inventory and hypothesis set instead of blocking the entire brain.
+
+**Minimum structure:**
+- Available sources and limitations
+- Observed patterns
+- Qualitative themes
+- Performance signals, where available
+- Contradictions and surprises
+- Hypotheses worth testing
+- Confidence level for each material conclusion
+
+**Done when:** the document distinguishes what the business knows, strongly suspects, and still needs to learn.
 
 ---
 
 ## 05 · The ICP
 
-**What it is:** the operating segmentation. Who we target, what they want, what stops them, what unsticks them.
+The operating segmentation: who matters, what progress they seek, what triggers action, what blocks adoption, and what makes the product credible.
 
-**What goes in it:**
-- Segments cut on axes the sales data actually backs up.
-- For each: jobs to be done, motivations, triggers, life stage.
-- Objection + counter pairs: every fear mapped to its honest answer.
-- Message register per segment: what tone lands, on which platform.
+**Go get:** draft segments from the strongest available combination of customer evidence, product strategy, market research, and frontline knowledge. Choose segmentation axes that change the marketing—not demographic defaults. For SaaS this may be company maturity, team shape, use case, technical environment, trigger, buying motion, urgency, or desired outcome.
 
-**The design decision:** don't invent personas. Let the segments fall out of the sales data — the cut the buying behavior shows, not the cut a template suggests. The original build's axes (geography × life stage, cross-cut by motive) came from the data, and geography led because it was a proxy for something real: whether the buyer could visit in person, which collapsed the category's biggest fear on its own.
+**Ask them:**
+- Do you have personas, segmentation, target-account criteria, or product-market hypotheses already?
+- Which customers get value fastest or become strongest advocates?
+- Which audience do you want more of, and which is a distraction?
+- Which objections are real, and which counters would you confidently use with a buyer?
+- Where is this segment evidence-backed versus strategically chosen?
 
-**Done when:** each segment implies a different ad, not a different adjective.
+**The rule:** do not invent decorative personas. A useful segment must change the message, proof, channel, offer, or motion. Data may reveal the segments; strategy may also choose them. Label which is which.
+
+**Minimum structure for each segment:**
+- Segment definition
+- Evidence basis and confidence
+- Trigger or buying context
+- Job / desired progress
+- Stakes and urgency
+- Primary objections
+- Honest counters
+- Relevant proof
+- Best channels, offers, or motions
+- Disqualifiers or poor-fit signals
+
+Use “not enough evidence yet” where appropriate. Do not demand sample sizes the business cannot reasonably produce.
+
+**Done when:** each segment implies meaningfully different marketing choices, not a different adjective.
 
 ---
 
 ## 06 · Voice & Tone
 
-**What it is:** the doc that makes generated lines sound like the brand, and keeps ten variants from being one idea rephrased.
+Makes generated work sound recognizably like the brand and keeps variants from collapsing into one repeated idea.
 
-**What goes in it:**
-- The voice foundation: who the brand sounds like, in one paragraph.
-- Testable principles, each with a passing and a failing example line.
-- A lexicon: words we use, words we never use, and why.
-- A variant kit: distinct angles for spinning one offer into real range.
-- Tone modulation: how the register flexes by audience and format.
+**Go get:** existing site copy, product copy, ads, emails, social posts, sales language, founder writing, and customer-facing materials. Draft principles you can actually hear, each with positive and negative examples. Draft the lexicon and the variant kit.
 
-**The design decision:** make taste testable. "Warm but professional" is a vibe; a principle with a ✅ line and a ❌ line is a check the agent can run on its own output before you ever see it.
+**Ask them:**
+- Do you have tone guidelines, a style guide, or a copy bank already?
+- Which lines in market sound unmistakably right? Which make you wince?
+- Which category words do you avoid or use differently?
+- What level of technicality, humor, confidence, warmth, or provocation is appropriate?
+- What tone would make you stop a launch?
 
-**Two components, two jobs.** The principles keep every line on-brand (consistency). The variant kit keeps treatments apart (range). Don't credit one with the other's work.
+**The rule:** make taste testable. “Clear and human” is an aspiration; a principle with passing and failing examples is a usable check.
 
-**Done when:** you can hand it a bad line and it can tell you which principle the line breaks.
+**Two components, two jobs.** Principles create consistency. The variant kit creates range.
+
+**Minimum structure:**
+- Voice principles with ✅ / ❌ examples
+- Tone by audience, channel, or situation
+- Lexicon: preferred, avoided, and contextual terms
+- Sentence-level habits
+- Variant kit: distinct angle families and treatments
+- Language/localization rules, if relevant
+
+**Done when:** the agent can diagnose why a line is off-brand and produce genuinely different on-brand alternatives.
 
 ---
 
 ## 07 · Design System
 
-**What it is:** the brand book, translated into rules an agent can execute. A brand PDF is for humans; this is the machine edition.
+The visual system translated into instructions an AI can execute. A brand guide is for humans; this is its production-facing interpretation.
 
-**What goes in it:**
-- The palette as exact values, with the job each color does.
-- Type, logo, and layout rules written as instructions, not examples.
-- The creative modes: the few layouts the work is allowed to take.
-- Hard rules stated as hard rules.
-- Image-generation prompt templates that encode all of the above.
+**Go get:** brand guidelines, design-system documentation, product UI, campaign creative, templates, and current assets. Extract canonical values and translate examples into rules. Only create image-generation guidance if generative imagery is actually part of the workflow.
 
-**The design decision:** uploading the brand-guide PDF makes the agent an archivist. Rewriting it as rules makes it a designer. That translation is where your judgment enters.
+**Ask them:**
+- Which source is canonical when the website, product, deck, and brand guide differ?
+- What may AI generate, adapt, or assemble?
+- What visual choices are prohibited, outdated, or channel-specific?
+- Which existing work best represents the brand, and why?
 
-**Name the canonical source, out loud.** If more than one kit exists — a studio identity and an expanded one, a website theme and a brand guide — say which one governs and which one is off-limits, or the model picks by proximity. And note: *the artifact in production is not the source of truth.* A color sampled from the live site is not a brand color.
+**The rule:** translate, do not merely attach. The model needs decisions and constraints, not just a PDF it may interpret inconsistently.
 
-**Done when:** the agent can produce something on-brand without seeing an example.
+**Minimum structure:**
+- Canonical sources
+- Color, typography, logo, spacing, and layout rules
+- Visual principles
+- Channel or format adaptations
+- Generative-media permissions and restrictions, if relevant
+- Production checks
+
+**Done when:** the agent can create a useful brief or production-ready direction without reverse-engineering the brand from scratch.
 
 ---
 
 ## 08 · Brand Asset Index
 
-**What it is:** every real file — logos, patterns, photos — mapped and described in plain words, so the agent picks assets by reading.
+The usable asset library described in text so an AI can find and select the right material without repeatedly inspecting every file.
 
-**What goes in it:**
-- The folder map, exactly as the files live on disk.
-- One line per file: what it shows, and what it's for.
-- Retrieval rules: which folders each kind of task may pull from.
-- Scope warnings: assets that exist but are off-limits for certain work.
+**Go get:** inspect the relevant folders and index assets at the level the workflow needs. Group repetitive assets instead of describing thousands of files one by one. Record what each asset is, where it lives, how it may be used, and whether it is current.
 
-**The design decision:** the agent does the looking, once. Point it at the folder and it writes a description of every file — that's the vision pass, and it's the cheap part. After that it works from text: picking the right asset without loading the image library every session, on any model, vision-capable or not.
+**Ask them:**
+- Which assets are canonical, restricted, outdated, licensed, customer-approved, or channel-specific?
+- Which asset families matter most in recurring production?
 
-**Done when:** the agent can build a full campaign without ever asking "which logo?"
+**The rule:** look once, work from text after. Index deeply enough to improve selection, but do not create documentation debt by cataloging irrelevant files.
+
+**Minimum structure:**
+- Asset or asset-family name
+- Location
+- Plain-language description
+- Best uses
+- Restrictions or permissions
+- Status / last reviewed
+
+**Done when:** the agent can select the right asset family for a real task and knows when it still needs a human or visual check.
 
 ---
 
 ## 09 · The Workflow
 
-**What it is:** the operating loop, written down like any other context — including exactly where a human says yes.
+The operating loop, including roles, handoffs, tools, approval gates, and what the AI may do independently.
 
-**What goes in it:**
-- The loop, step by step: ideate → draft variants → review → publish → measure → learn.
-- The approval gates, named. Nothing spends, publishes, or changes without a human yes.
-- What the agent may do freely: drafting, analysis, recommendations.
-- Where learnings get saved, so the next cycle starts smarter.
+**Go get:** existing SOPs, project templates, calendars, automations, task trackers, and examples of work moving from brief to launch to learning. Draft the real workflow, not the idealized one.
 
-**The design decision:** the process is context too, so it gets written down. When the brain moves to a more autonomous stack, the gates move with it. They live in the files, not in your head.
+**Ask them:**
+- How does work actually get made today?
+- What can the AI research, draft, update, recommend, or execute?
+- Where must a human approve?
+- Who owns final judgment, brand, budget, legal review, publishing, and performance decisions?
+- How are results fed back into the brain?
 
-**Done when:** someone could hand the brain to a different operator and the gates would still hold.
+**The rule:** process and permissions are context. Portability is only useful when the operating boundaries move with the knowledge.
+
+**Minimum structure:**
+- Trigger and inputs
+- Steps, owners, and tools
+- AI permissions
+- Human approval gates
+- Handoffs and outputs
+- Measurement and learning loop
+- Failure and escalation paths
+
+**Done when:** a new operator or agent runtime could use the brain without accidentally changing who is authorized to decide or act.
 
 ---
 
 ## 10 · The Instructions Layer
 
-**What it is:** the system prompt, kept deliberately lean. It does almost nothing but point.
+The lean runtime instructions. It defines the role, non-negotiable rules, routing, precedence, and how to use the rest of the brain.
 
-**What goes in it:**
-- The role, in two sentences: who the agent is, and what winning means.
-- The hard rules, restated once: the ones that override everything.
-- The routing map: which doc answers which kind of question.
-- What to do when docs conflict, and when to say "unconfirmed."
+**Go get:** derive it from the completed documents. Do not duplicate the full knowledge base inside the prompt.
 
-**The design decision:** the mirror copy is the trick — keep a copy of this layer inside the knowledge base too. Then nothing load-bearing lives in a settings field, and the whole brain, operating rules included, moves to any stack as a folder of files.
+**Ask them:**
+- Which rules are important enough to survive partial retrieval?
+- What may the AI decide or execute alone?
+- What should it do when evidence is missing or documents conflict?
 
-**Done when:** you could paste it into a different tool tomorrow and lose nothing.
+**The rule:** point, route, and enforce. Keep a mirrored copy in the portable folder so no load-bearing behavior exists only in a proprietary settings field.
+
+**Minimum structure:**
+- Role and objective
+- Hard rules
+- Source precedence
+- Document routing map
+- Permission boundaries
+- Uncertainty behavior
+- Output and review expectations
+
+**Done when:** the folder can move to a new compatible environment without losing its core operating logic.
 
 ---
 
-## 11 · The Decision Log — the doc that should exist
+## 11 · The Decision Log
 
-Here's the honest part.
+The record of consequential decisions, especially hard rules, rejected options, reversals, and the reasoning future operators will otherwise have to reconstruct.
 
-The original build doesn't have this doc. It was reconstructed later, painfully, by reading the brain's own prohibition language and reverse-engineering what must have gone wrong to produce each rule. Every hard rule in a mature brain is a fossilized mistake — and six months on, nobody remembers which mistake.
+**Go get:** collect material decisions made during the build and any existing rules whose origin matters.
 
-**What goes in it,** one entry per rule that isn't obvious:
-- **The rule.** As stated in whichever doc carries it.
-- **What happened.** The mistake, the bad output, the near-miss, the thing that cost money.
-- **What we rejected.** The other options considered, and why they lost.
-- **What would reverse it.** The condition under which this rule stops applying.
+**Ask them, for each consequential decision:**
+- What problem or evidence prompted it?
+- What alternatives were considered or rejected?
+- Who owns the decision?
+- What would justify revisiting it?
 
-**The design decision:** rules without reasons are cargo cult. A stranger inheriting your brain can follow the rules but can't know when they've expired — and neither can you, later, because you'll have forgotten.
+**The rule:** rules without reasons become cargo cult. Log decisions that affect future judgment; do not turn every preference into bureaucracy.
 
-Designed rules and scars read differently. Designed rules say *do this*. Scars say *never this*, and name the specific wrong thing. **When you catch yourself writing a "never," stop and log it.** That's the cheapest this will ever be.
+**Minimum structure for each entry:**
+- Decision
+- Date and owner
+- Evidence or trigger
+- Alternatives considered
+- Rationale
+- Consequences for production
+- Revisit condition
 
-**Done when:** every "never" in the brain has an entry.
+**Done when:** a future marketer can understand the important rules without replaying the original chat—and the log remains useful rather than exhaustive.
