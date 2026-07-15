@@ -28,6 +28,10 @@ Eleven interlocking documents:
 
 The number isn't sacred. The architecture is: evidence before synthesis, depth docs plus fast references, explicit precedence, and an operating layer that travels with the knowledge.
 
+**If you only do three:** Spine, ICP, Voice. That's the brain that stops the output from being generic, and it's a good afternoon's work. The other eight are what make it reliable enough to hand real autonomy to. Start where the pain is; the skill will follow you.
+
+**On effort:** this is a real build, not a five-minute template fill. The three-doc version is an afternoon. My first full one took about seven hours, most of it arguing with Claude about what its research had turned up. That arguing is the part that makes it good.
+
 ## How the work actually goes
 
 **AI investigates. The marketer decides.**
@@ -42,13 +46,13 @@ Uncertainty stays marked instead of quietly hardening into fact. Hard rules get 
 
 > Help me build a context brain.
 
-**Claude Code** — drop the `context-brain` folder in `~/.claude/skills/` (personal) or `.claude/skills/` (project).
+**Claude Code** — download or clone this repo, rename the folder to `context-brain` (matching the skill name), and put it in `~/.claude/skills/` (personal) or `.claude/skills/` (project).
 
 **No skills, don't care** — put the files in a Claude Project and tell Claude to follow `SKILL.md`. It's all plain markdown. Works fine.
 
 ## What good looks like
 
-The hardest part to describe in prose is the level of specificity that makes these docs work. So there are worked excerpts in [`assets/examples.md`](assets/examples.md) — a real testable voice principle with its pass/fail lines, one segment that changes the marketing sitting next to one decorative persona, and a decision log entry with the field everyone skips. All from a fictional company. Read them for shape, not content.
+The hardest part to describe in prose is the level of specificity that makes these docs work. So there are worked excerpts in [`references/examples.md`](references/examples.md) — a real testable voice principle with its pass/fail lines, one segment that changes the marketing sitting next to one decorative persona, and a decision log entry with the field everyone skips. All from a fictional company. Read them for shape, not content.
 
 ## How you know it worked
 

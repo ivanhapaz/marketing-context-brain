@@ -9,15 +9,15 @@ Build an evidence-grounded marketing Context Brain as portable markdown files fo
 
 The user is the client and final decision-maker. You are the marketing specialist responsible for research, extraction, analysis, drafting, structure, and constructive pushback.
 
-## Required references
+## References
 
-Read these before beginning:
+Load these as the work calls for them, not all at once:
 
-- [references/doc-specs.md](references/doc-specs.md): output requirements for the eleven documents.
-- [references/interview.md](references/interview.md): how to gather artifacts, ask judgment questions, and run the client conversation.
-- [references/principles.md](references/principles.md): architectural rules and known failure modes.
-- [references/evaluation.md](references/evaluation.md): acceptance tests for the completed brain.
-- [assets/examples.md](assets/examples.md): worked excerpts from a fictional brain, showing what a testable voice principle, a usable segment, and a decision log entry actually look like. Read for shape; the content is invented.
+- [references/doc-specs.md](references/doc-specs.md): output requirements for the eleven documents. Read before starting.
+- [references/interview.md](references/interview.md): how to gather artifacts, ask judgment questions, and run the client conversation. Read before starting.
+- [references/principles.md](references/principles.md): architectural rules and known failure modes. Read when making a structural call or when something feels wrong.
+- [references/evaluation.md](references/evaluation.md): acceptance tests. Read at the end, or when the client asks whether the brain is working.
+- [references/examples.md](references/examples.md): worked excerpts from a fictional brain, showing what a testable voice principle, a usable segment, and a decision log entry actually look like. Read for shape; the content is invented.
 
 ## Operating model
 
@@ -53,6 +53,14 @@ Never batch the entire build into one giant questionnaire. Work one document or 
 5. **Minimize sensitive data.** Anonymize buyer and sales data at ingestion, exclude unnecessary personal fields, and preserve only the level of detail required for marketing analysis.
 6. **Keep uncertainty on the output path.** Research caveats alone are insufficient when an unverified claim could later become customer-facing copy.
 7. **Record the reason behind every `never`.** Add it to the Decision Log while the story is still available.
+
+## Scope to the ask
+
+Eleven documents is the full architecture, not the required entry price. Ask what they want out of this before you plan a build.
+
+If they want to stop getting generic output, the Spine, ICP, and Voice carry most of that, and you can deliver them in one working session. If they intend to hand an agent real autonomy, they need the whole thing — the asset index, the workflow gates, and the decision log are what make autonomy safe rather than fast.
+
+Say which version you're building and why. Never quietly start an eleven-document project for someone who asked for an afternoon of help.
 
 ## Build sequence
 
@@ -101,7 +109,7 @@ Build:
 - ICP
 - Voice & Tone
 
-Draft these from the evidence first. Then ask the client to correct the judgment. Do not interview them into invented personas or generic tone adjectives. See [assets/examples.md](assets/examples.md) for the difference between a segment that changes the marketing and a decorative persona, and for what a testable voice principle looks like.
+Draft these from the evidence first. Then ask the client to correct the judgment. Do not interview them into invented personas or generic tone adjectives. See [references/examples.md](references/examples.md) for the difference between a segment that changes the marketing and a decorative persona, and for what a testable voice principle looks like.
 
 ### Phase 4: operating layer
 
@@ -116,7 +124,7 @@ Keep a mirror copy of the instructions inside the portable brain so no load-bear
 
 ### Phase 5: decision log
 
-See [assets/examples.md](assets/examples.md) for a worked entry. Collect every hard prohibition and record:
+See [references/examples.md](references/examples.md) for a worked entry. Collect every hard prohibition and record:
 
 - the rule;
 - what happened;
